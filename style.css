@@ -1,12 +1,46 @@
-body
-{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+.container {
+width: auto;
+height: 600px;
+position: relative;
 }
 
-.header
-{
-	float: right;
+#header {
+	background-color: #333333;
+	height:30px;
+
+}
+
+.search-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.a {
+text-decoration: none;
+font-family: arial;
+color: #ABABAB;
+float: left;
+padding: 5px;
+font-size: 13px;
+font-weight: 600;
+margin-top: 2px;
+margin-right: 13px;
+
+}
+
+img {
+margin-left: 130px;
+margin-top: 195px;
+}
+
+
+#footer-links {
+position: relative;
+bottom: 0;
+font-family: verdana;
+display: inline;
+
 }
 
